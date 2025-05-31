@@ -18,6 +18,7 @@
 # them for future reference.
 
 $env.config.buffer_editor = "code"
-$env.config = {
-    shell_integration: {osc133 : false}
-}
+#$env.config = {
+#    shell_integration: {osc133 : false}
+#}
+$env.config.shell_integration.osc133 = false # Windows解决输出随输入不断上移的bug
