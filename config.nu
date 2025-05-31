@@ -18,7 +18,14 @@
 # them for future reference.
 
 $env.config.buffer_editor = "code"
-#$env.config = {
-#    shell_integration: {osc133 : false}
-#}
+# $env.config = {
+#     shell_integration: {osc133 : false}
+# }
 $env.config.shell_integration.osc133 = false # Windows解决输出随输入不断上移的bug
+
+# 用于将starship用作nushell美化
+mkdir ($nu.data-dir | path join "vendor/autoload")
+starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
+
+# 关闭启动会话
+$env.config.show_banner = false
