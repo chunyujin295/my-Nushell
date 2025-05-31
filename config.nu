@@ -29,3 +29,6 @@ starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.n
 
 # 关闭启动会话
 $env.config.show_banner = false
+
+# 创建ll命令别名
+alias ll = ls -l
