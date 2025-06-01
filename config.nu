@@ -32,3 +32,15 @@ $env.config.show_banner = false
 
 # 创建ll命令别名
 alias ll = ls -l
+
+# 创建一个自定义命令，用来更新我的网页(注意的是，自定义命令的语法格式要求很严格，比如[]和{}的空格、是否换行)
+def updateWeb [] {
+    cd D:/code/chunyujin_top_web
+    npm run deploy
+}
+
+# 创建一个自定义命令，用来更新网页git
+def gitWeb [] {
+    cd D:/code/chunyujin_top_web
+    npm run git_push
+}

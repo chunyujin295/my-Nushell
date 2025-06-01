@@ -1,0 +1,185 @@
+ls
+ll
+ls
+ll
+ls -a
+ls -al
+ll
+ls -l
+ls
+l
+ls
+ll
+ls all
+ls -all
+ls
+exit
+nvim
+ls
+lua --version
+$env | reject config | transpose key val | each {|r| echo $"$env.($r.key) = '($r.val)'"} | str join (char nl)
+cat /etc/shells
+exit
+ls
+ll
+ls
+ll
+ls
+lua
+$nu.config-path
+ls
+exit
+ls
+ll
+ls
+exit
+$nu.config-path
+nvim D:\nvim_config\nushell\config.nu
+config nu shell_intergration = false
+config nu shell_intergration false
+config shell_itegration = false
+config nu
+condif nu nvim
+config nu ncim
+config nu nvim
+config nu
+config nu code
+config nu vscode
+config nu
+exit
+config nu
+config
+config nu
+exit
+condif nu
+config nu
+exit
+ls
+git clone git@github.com:chunyujin295/my-Nushell.git
+git add .
+cd my-Nushell\
+ls
+git add .
+git commit -m "change"
+git push origin master
+git push
+ls
+exit
+git add . && git commit -m "change" && git push origin main
+git add .
+git commit -m "change"
+git push
+ls
+git add .
+git commit -m "change"
+git push 
+ls -al
+ls
+ll
+ls
+ll
+git add .
+ls
+git commit -m "change"
+git push 
+exit
+ls
+ll
+ls
+ll
+ls
+ll
+cd D:\code\ls
+cd D:/code
+ls
+cd ..
+ls
+cd my-Nushell\
+ls
+ll
+exit
+ll
+cd D:\$RECYCLE.BIN\
+ls
+cd ..
+ls
+cd my-Nushell\
+ls
+ll
+exit
+nvim
+ls
+ll
+ls
+nvim
+ls
+nvim
+cd D:
+cd D:\
+ls
+cd my-Nushell
+ls
+cd ..
+cd nvim_config\
+ls
+echo $nu.config-path
+exit
+exit
+nvim
+ls
+git clone https://github.com/LazyVim/starter ./nvim
+nvim
+ls
+cd ..
+cd code
+ls
+cd lua
+ls
+nvim
+fzf
+nvim
+lazygit
+nvim
+ls
+cd ..
+cd config
+ls
+cd nvim
+ls
+nvim
+git clone git@github.com:chunyujin295/my-nvim.git
+nvim .
+nvim
+rg
+rg test
+clear
+rg lua
+exit
+nvim
+exit
+cd D:/code/chunyujin_top_web/
+npm run deploy
+exit
+cd D:/code/chunyujin_top_web/
+cd D:/code/chunyujin_top_web/ ; npm run git_push
+gitWeb
+exit
+echo $nu.config-path
+ls
+exit
+updateWeb
+source-script
+exit
+nvim
+exit
+q
+exit
+exit
+exit
+exit
+llexit
+exit
+--help
+def updateWeb []{<\n>    cd D:/code/chunyujin_top_web<\n>    npm run deploy<\n>}
+--help
+ls
